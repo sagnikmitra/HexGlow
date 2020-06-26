@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>oh my god</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <p></p>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <div class="container">
+        <div class="toggle-container">
+            <input type="checkbox" id="switch" name="theme" /><label for="switch"></label>
+        </div>
+    </div>
+    <div class="section-title">
+        <h2>Registered Universities</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et blanditiis, recusandae sint dolores aliquid possimus repellat quod aperiam unde vel doloremque deleniti reiciendis odio? Vel atque in unde accusamus placeat.</p>
+    </div>
+    <section id="creative" class="creative"></section>
+    <div class="box">
+        <div class="imgBx">
+            <img src="assets/img/gallery/gallery-1.png" alt="">
+        </div>
+        <div class="content">
+            <h5>Netaji Subhas Engineering College</h5>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="assets/img/gallery/gallery-2.png" alt="">
+        </div>
+        <div class="content">
+            <h5>Sister Nivedita University</h5>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="assets/img/gallery/gallery-3.png" alt="">
+        </div>
+        <div class="content">
+            <h5>Techno International New Town</h5>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="assets/img/gallery/gallery-4.png" alt="">
+        </div>
+        <div class="content1">
+            <h5>Meghnad Saha Institute of Technology</h5>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="assets/img/gallery/gallery-6.png" alt="">
+        </div>
+        <div class="content">
+            <h5>Techno International Batanagar</h5>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="assets/img/gallery/gallery-7.png" alt="">
+        </div>
+        <div class="content">
+            <h5>Siliguri Institute of Technology</h5>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="assets/img/gallery/gallery-8.png" alt="">
+        </div>
+        <div class="content">
+            <h5>Techno India<br>University</h5>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="assets/img/gallery/gallery-9.png" alt="">
+        </div>
+        <div class="content">
+            <h5>Institute of Engineering & Management</h5>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="assets/img/gallery/gallery-10.png" alt="">
+        </div>
+        <div class="content1">
+            <h5>University of Engineering & Management</h5>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBx">
+            <img src="assets/img/gallery/gallery-11.png" alt="">
+        </div>
+        <div class="content">
+            <h5>Heritage Institute of Technology</h5>
+        </div>
+    </div>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ducimus repellendus dolorem eum consequatur id exercitationem nesciunt, inventore modi perferendis impedit esse, tempora officia, ipsam quae libero. Nostrum, alias dignissimos.</p> -->
+    <script>
+                var checkbox = document.querySelector('input[name=theme]');
+
+checkbox.addEventListener('change', function() {
+    if(this.checked) {
+        trans()
+        document.documentElement.setAttribute('data-theme', 'dark')
+    } else {
+        trans()
+        document.documentElement.setAttribute('data-theme', 'light')
+    }
+})
+
+let trans = () => {
+    document.documentElement.classList.add('transition');
+    window.setTimeout(() => {
+        document.documentElement.classList.remove('transition')
+    }, 1000)
+}
+    </script>
+</body>
+
+</html>
